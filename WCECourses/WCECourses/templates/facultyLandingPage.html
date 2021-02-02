@@ -1,0 +1,16 @@
+{% extends "base.html"%}
+{%load static%}
+{% block title %}About{% endblock %}
+{% block content %}
+
+<br><br><br><br><br>
+
+<h1 style="text-align: center;">Enrollment Details</h1><br>
+
+<div class="container d-flex justify-content-center">
+    <a href="{% url 'enrollListDL' %}"><button class="btn btn-primary">Check Enrollment List for Deep Learning: Basics to Advanced</button></div></a><br>
+            <div class="container d-flex justify-content-center"><a href="{% url 'enrollListPython' %}"><button class="btn btn-primary">Check Enrollment List for Python For Everbody</button></a></div><br>
+
+
+<br><br><br>
+{%endblock%}
